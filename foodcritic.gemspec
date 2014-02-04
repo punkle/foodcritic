@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://foodcritic.io'
   s.license = 'MIT'
   s.executables << 'foodcritic'
-  s.add_dependency('gherkin', '~> 2.11.7')
+  s.add_dependency('gherkin', '~> 2.12.0')
   s.add_dependency('nokogiri', '~> 1.5.4')
   s.add_dependency('rake')
   s.add_dependency('treetop', '~> 1.4.10')
